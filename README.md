@@ -65,3 +65,7 @@ omarchy-shell critters spawn | setStage <n> | addXp <id> <n>
 - You can test the simulation headless with Node: load `Sim.js` in a `vm` context after
   stripping the `.pragma` and `.import` lines.
 - Pacing knobs live at the top of `Sim.js` (`STAGES`, `XP_RATE`, build weights).
+
+## License
+
+MIT © Yagho Franco Grossi Mota. Reuse it freely, just keep the copyright notice (see `LICENSE`).
