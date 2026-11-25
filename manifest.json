@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "yaghofgm.critters",
+  "name": "Critters",
+  "version": "1.0.0",
+  "author": "yaghofgm",
+  "description": "Ninja desktop pets that live on your windows: they train, build a pagoda dojo, hold tournaments and fight off demon raids.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Critters",
+    "description": "Spawn, switch and dismiss your critters",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
